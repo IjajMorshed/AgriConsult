@@ -1,0 +1,377 @@
+body{
+    margin: 0px;
+    text-align: center;
+    background-color: hsl(120, 59%, 83%);
+}
+.headdiv{
+    background-color: hsl(160, 76%, 20%);
+    
+}
+.headdiv1{
+  width: 50%;
+  float: left;
+  margin-top: 70px;
+  color: hsl(0, 0%, 100%);
+}
+.headdiv2{
+  width: 45%;
+  float: left;
+  margin-top: 150px;
+  color: hsl(157, 87%, 68%);
+  font-size: 1.2rem;
+  font-style:normal;
+  padding: 0.1px;
+  background-color: hsla(0, 0%, 0%, 0.26);
+  backdrop-filter: blur(0.01px);
+  border-radius: 15px;
+}
+#homeid{
+    background-image: url("image/home1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 1px;
+    height: 400px;
+    /* max-width: 1920px; */
+    width: 100%;
+}
+
+#plantsid{
+    background-image: url("image/plants1.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 1px;
+    height: 400px;
+    /* max-width: 1920px; */
+    width: 100%;
+}
+#newsid{
+      background-image: url("image/news1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 1px;
+    height: 400px;
+    /* max-width: 1920px; */
+    width: 100%;
+}
+#professionalid{
+      background-image: url("image/professional1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 1px;
+    height: 400px;
+    /* max-width: 1920px; */
+    width: 100%;
+}
+#diseaseid{
+      background-image: url("image/disease1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 1px;
+    height: 400px;
+    /* max-width: 1920px; */
+    width: 100%;
+}
+#logo{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    height: 90px;
+    width: 90px;
+    border-radius: 50px;
+}
+#logo1{
+    margin: 0px;
+    margin-top: 3px;
+    margin-left: 5px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+main{
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top: 2px;
+    background-color: hsl(120, 86%, 70%);
+    padding: 5px;
+    border-radius: 5px;
+    text-align: left;
+}
+h1{
+    text-align: center;
+    margin: 0px;
+}
+#navh2{
+  text-align: left;
+  margin: 0px;
+  margin-left: 5px;
+  flex-wrap: nowrap;
+  flex-shrink: 1;
+}
+h3{
+    text-align: center;
+}
+
+.navibar{
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;     /* centers the ul */
+  align-items: center;
+  align-content: center;
+  flex-shrink: 1;
+  background-color: hsl(133, 95%, 15%);
+  padding: 0;
+  margin: 0px;
+  margin-left: 0px;
+  border-radius: 5px;
+  width: 100%;
+  position:sticky;
+  top: 0px;
+  z-index: 1000;
+}
+
+/* navigation list */
+.navul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0px;
+  margin-left: auto;
+  text-align: center;
+  /* margin-left: 200px; */
+  /*margin-right: 400px; */
+  /* min-width: 988px;
+  max-width:50px; */
+  padding: 0;
+
+}
+
+.navibar li {
+  display: inline-block;
+}
+
+.navibar a {
+  color: white;
+  text-decoration: none;
+  padding: 19px 25px;
+  display: inline-block;
+  text-align: center;
+}
+
+.navibar a:hover {
+  background-color: hsl(0, 1%, 28%);
+}
+
+.plantsdiv{
+
+    margin: auto;
+    margin-top: 20px;
+    max-height: 300px;
+    margin-left: 12px;
+    width: 150px;
+    padding: 40px;
+    padding-top: 15px;
+    background-color: hsl(117, 34%, 26%);
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid hsl(0, 0%, 83%);
+    box-shadow: 5px 5px 3px rgba(18, 8, 8, 0.2);
+    display: inline-block;
+ 
+}
+.plantsdiv:hover{
+  background-color: hsl(117, 34%, 16%);
+}
+.plantsimg{
+    margin-top: 20px;
+    height: 100px;
+    width:100px;
+    border-radius: 50px;
+    border: 2px solid hsl(0, 89%, 22%);
+    
+}
+.plantsbtn{
+    height: 35px;
+    width: 80px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(240, 66%, 38%);
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid hsl(0, 0%, 0%);
+    box-shadow: 5px 5px 3px rgba(18, 8, 8, 0.2);
+}
+.plantsbtn:hover{
+    background-color: hsl(240, 66%, 28%);
+}
+.newsdiv{
+    margin: 15px;
+    padding: 20px;
+    padding-top: 10px;
+    text-align: left;
+    background-color: hsl(0, 1%, 79%);
+    border-radius: 30px;
+    border: 1px solid hsl(0, 0%, 0%);
+    box-shadow: 5px 5px 3px rgba(18, 8, 8, 0.2);
+}
+.newsdiv:hover{
+      background-color: hsl(0, 1%, 69%);
+}
+.newsbtn{
+    height: 35px;
+    width: 90px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 75%);
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid hsl(0, 0%, 0%);
+    box-shadow: 5px 5px 3px rgba(18, 8, 8, 0.2);
+}
+.newsbtn:hover{
+    background-color: hsl(0, 0%, 65%);
+}
+.professionaldiv{
+    margin: 25px;
+    margin-left: 34px;
+    height: 420px;
+    width: 260px;
+    padding: 42px;
+    padding-top: 15px;
+    background-color: hsl(0, 0%, 100%);
+    text-align: center;
+    border-radius: 15px;
+    border: 3px solid hsl(0, 0%, 0%);
+     vertical-align: top;
+    box-shadow: 5px 5px 3px rgba(18, 8, 8, 0.2);
+    display: inline-block;
+}
+.professionaldiv:hover{
+      background-color: hsl(0, 0%, 80%);
+}
+.professionalimg{
+    margin-top: 10px;
+    height: 200px;
+    width:200px;
+    border-radius: 100px;
+    border: 2px solid hsl(0, 89%, 22%);
+}
+#output{
+    margin: 5px;
+    padding: 20px;
+    padding-top: 10px;
+    text-align: left;
+    background-color: hsl(0, 20%, 90%);
+    border-radius: 20px;
+    border: 1px solid hsl(0, 0%, 0%);
+    box-shadow: 5px 5px 3px rgba(18, 8, 8, 0.2);
+}
+
+#LogBtn{
+  background-color: hsl(85, 82%, 80%);
+  margin-right: 10px;
+  color: black;
+  padding: 8px 20px;
+  border-radius: 20px;
+  margin-left: auto;
+  text-align: right;
+  border: 2px solid black;
+  cursor: pointer;
+}
+#LogBtn:hover{
+    background-color: hsl(85, 82%, 90%);
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: hsla(0, 0%, 0%, 0.6);
+}
+
+.modal-content {
+  background: hsl(106, 41%, 86%);
+  color: #333;
+  margin: 10% auto;
+  padding: 30px;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 380px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  font-size: 22px;
+  cursor: pointer;
+  color: #888;
+}
+
+.close:hover {
+  color: #000;
+}
+
+.form {
+  display: none;
+  flex-direction: column;
+}
+
+.form.active {
+  display: flex;
+}
+
+.form input {
+  margin: 10px 0;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+}
+
+.form input:focus {
+  border-color: #2980b9;
+}
+
+.btn {
+  margin-top: 15px;
+  padding: 12px;
+  background-color: #2980b9;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #1c5d82;
+}
+
+.toggle-text {
+  text-align: center;
+  margin-top: 15px;
+  color: #555;
+  font-size: 14px;
+}
+
+.toggle-text a {
+  color: #2980b9;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.toggle-text a:hover {
+  text-decoration: underline;
+}

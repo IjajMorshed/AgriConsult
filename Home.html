@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgriConsult</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <nav class="navibar">
+        <div>
+            <img id="logo1" src="image/plant2.jpg">
+        </div>
+        <div>
+           <h2 id="navh2">AgriConsult</h1>
+        </div>
+        
+        <ul class="navul">
+            <li style="background-color: hsl(0, 0%, 0%);"><a  href="Home.html">Home</a></li>
+            <li><a  href="Plants.html">Plants</a></li>
+            <li><a  href="News.html">News</a></li>
+            <li><a  href="Disease.html">Disease</a></li>
+            <li><a  href="Professional.html">Professional</a></li>
+            
+        </ul>
+        <button id="LogBtn">Log in</button>
+        </nav>
+    <header>
+    <div class="headdiv" id="homeid">
+        <div class="headdiv1">
+            <img id="logo" src="image/plant2.jpg">
+            <h1>AgriConsult</h1>
+            <h3>Real-Time Crop Disease Support</h3>
+        </div>
+        <div class="headdiv2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dicta inventore suscipit, quas repudiandae dolore sunt quasi cupiditate amet alias mollitia quaerat illo accusamus recusandae, minima eveniet, at atque qui.</p>
+        </div>
+       
+    </div>
+    </header>
+    
+    <main>
+
+
+
+    <!-- log in part-->
+    <div id="loginModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+
+      <h2 id="formTitle">Login</h2>
+
+      <!-- Login Form -->
+      <form id="loginForm" class="form active">
+        <input type="email" id="loginEmail" placeholder="Email" required />
+        <input type="password" id="loginPassword" placeholder="Password" required />
+        <button type="submit" class="btn">Login</button>
+        <p class="toggle-text">
+          Don't have an account?
+          <a href="#" id="showSignup">Sign Up</a>
+        </p>
+      </form>
+
+      <!-- Signup Form -->
+      <form id="signupForm" class="form">
+        <input type="text" id="signupName" placeholder="Full Name" required />
+        <input type="email" id="signupEmail" placeholder="Email" required />
+        <input type="password" id="signupPassword" placeholder="Password" required />
+        <button type="submit" class="btn">Sign Up</button>
+        <p class="toggle-text">
+          Already have an account?
+          <a href="#" id="showLogin">Login</a>
+        </p>
+      </form>
+    </div>
+  </div>
+
+  <script src="Login.js"></script>
+
+</body>
+</html>
