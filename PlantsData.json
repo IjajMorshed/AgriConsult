@@ -1,0 +1,122 @@
+{
+  "potato": {
+    "name": "Potato",
+    "description": "A starchy underground tuber native to South America, now one of the world’s main food crops. Potatoes come in many varieties and can be boiled, baked, or fried.",
+    "benefits": "Rich in carbohydrates, potassium, and vitamin C; provides quick energy and supports heart health when cooked healthily."
+  },
+  "carrot": {
+    "name": "Carrot",
+    "description": "A brightly colored (usually orange) root vegetable with a sweet flavor. Often eaten raw, juiced, or cooked in soups and salads.",
+    "benefits": "High in beta-carotene, promoting good eyesight, skin health, and immunity."
+  },
+  "beetroot": {
+    "name": "Beetroot",
+    "description": "A round, red-purple root with an earthy taste. Used in salads, juices, and as a natural food color.",
+    "benefits": "Improves blood flow, helps lower blood pressure, and supports liver health."
+  },
+  "radish": {
+    "name": "Radish",
+    "description": "A small, crisp, and slightly spicy root vegetable, commonly eaten raw in salads.",
+    "benefits": "Aids digestion, has detoxifying properties, and is low in calories but high in vitamins C and B6."
+  },
+  "spinach": {
+    "name": "Spinach",
+    "description": "A green leafy vegetable that can be eaten raw or cooked. Grows best in cool weather.",
+    "benefits": "Excellent source of iron, calcium, and magnesium; supports bone health and boosts energy."
+  },
+  "cabbage": {
+    "name": "Cabbage",
+    "description": "A leafy vegetable that forms a dense, round head. Comes in green, red, or Savoy varieties.",
+    "benefits": "Rich in vitamin K and fiber; promotes digestion and supports immunity."
+  },
+  "cauliflower": {
+    "name": "Cauliflower",
+    "description": "A compact white vegetable composed of undeveloped flower buds. Often roasted, steamed, or used as a low-carb rice substitute.",
+    "benefits": "Packed with antioxidants, vitamin C, and choline, which support brain and heart health."
+  },
+  "broccoli": {
+    "name": "Broccoli",
+    "description": "A green flowering vegetable closely related to cauliflower. It has thick stalks and green florets.",
+    "benefits": "Rich in fiber, vitamin K, and antioxidants; supports immune function and prevents inflammation."
+  },
+  "tomato": {
+    "name": "Tomato",
+    "description": "Technically a fruit, but used as a vegetable in cooking. Red, juicy, and full of flavor.",
+    "benefits": "High in lycopene, vitamin C, and potassium; good for heart health."
+  },
+  "cucumber": {
+    "name": "Cucumber",
+    "description": "A long, green, water-rich vegetable often eaten raw. Grows on vines in warm climates.",
+    "benefits": "Hydrates the body, supports skin health, and aids detoxification."
+  },
+  "eggplant": {
+    "name": "Eggplant (Brinjal)",
+    "description": "A purple, glossy vegetable with a soft interior when cooked. Common in Mediterranean and Asian cuisines.",
+    "benefits": "Rich in fiber, antioxidants, and low in calories; helps lower cholesterol and supports heart health."
+  },
+  "capsicum": {
+    "name": "Capsicum (Bell Pepper)",
+    "description": "A colorful, sweet vegetable available in red, green, and yellow varieties.",
+    "benefits": "Loaded with vitamin C and beta-carotene; improves immunity and eye health."
+  },
+  "mango": {
+    "name": "Mango",
+    "description": "A juicy, sweet tropical fruit known as the ‘King of Fruits.’ It has yellow-orange flesh and a large seed.",
+    "benefits": "Rich in vitamin A and C, supports immunity, improves digestion, and promotes healthy skin."
+  },
+  "banana": {
+    "name": "Banana",
+    "description": "A long, curved fruit with a soft interior and yellow peel. Grows in bunches in tropical climates.",
+    "benefits": "High in potassium, aids muscle function, provides quick energy, and supports heart health."
+  },
+  "pineapple": {
+    "name": "Pineapple",
+    "description": "A tropical fruit with rough, spiky skin and juicy yellow flesh. Known for its tangy-sweet flavor.",
+    "benefits": "Contains bromelain, boosts immunity, and reduces inflammation."
+  },
+  "coconut": {
+    "name": "Coconut",
+    "description": "A large, round fruit with a hard shell, white flesh, and refreshing water inside.",
+    "benefits": "Hydrates the body, provides healthy fats, and supports brain and heart health."
+  },
+  "apple": {
+    "name": "Apple",
+    "description": "A crisp, round fruit that comes in many varieties—sweet, tart, red, green, or yellow.",
+    "benefits": "High in fiber and antioxidants, supports digestion, and lowers heart disease risk."
+  },
+  "pear": {
+    "name": "Pear",
+    "description": "A sweet, bell-shaped fruit with soft, juicy flesh and a thin peel.",
+    "benefits": "Rich in fiber, promotes gut health, and helps control blood sugar levels."
+  },
+  "cherry": {
+    "name": "Cherry",
+    "description": "A small, red fruit with a pit inside and a sweet or tart flavor.",
+    "benefits": "Loaded with antioxidants; helps improve sleep and reduce muscle soreness."
+  },
+  "strawberry": {
+    "name": "Strawberry",
+    "description": "A bright red fruit with juicy texture and tiny seeds on its surface.",
+    "benefits": "Excellent source of vitamin C, boosts immunity, and promotes healthy skin."
+  },
+  "orange": {
+    "name": "Orange",
+    "description": "A round, juicy fruit with a bright orange peel. Grows on evergreen trees in warm regions.",
+    "benefits": "High in vitamin C, strengthens immunity, and promotes healthy skin."
+  },
+  "lemon": {
+    "name": "Lemon",
+    "description": "A yellow citrus fruit with a sour taste. Used for flavoring, juices, and detox drinks.",
+    "benefits": "Supports digestion, purifies the body, and enhances iron absorption."
+  },
+  "blueberry": {
+    "name": "Blueberry",
+    "description": "A small, round blue fruit with a mildly sweet flavor.",
+    "benefits": "Rich in antioxidants, boosts brain health, and supports heart wellness."
+  },
+  "watermelon": {
+    "name": "Watermelon",
+    "description": "A large, green-skinned fruit with sweet, red flesh and high water content.",
+    "benefits": "Hydrates the body, cools in summer, and supports muscle recovery."
+  }
+}
